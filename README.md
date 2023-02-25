@@ -21,7 +21,7 @@ pip install botocore
 git clone https://github.com/ursnagh/Challenge1.git
 ```
 
-If you like to have an experience of creating your own scrapy spider, by executing the steps below in your Terminal: 
+If you like to have an experience of creating your own scrapy spider, execute the steps below in your Terminal: 
 
 **Create a New Scrapy Spider Project**
 
