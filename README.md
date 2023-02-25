@@ -39,7 +39,7 @@ You can overwrite your exisitng *settings.py* and the *./spiders/book2scrape.py*
 scrapy crawl book2scrape -o output.json
 ```
 
-**To ensure that the spider stops scraping at 750 items I have modified the pipeline in the pipelines.py file as given below**
+**To ensure that the spider stops scraping at 750 items, I have modified the pipeline in the pipelines.py file as given below**
 
 ```
 from itemadapter import ItemAdapter
@@ -59,7 +59,7 @@ class Challenge1Pipeline:
         return item
 ```
 
-**The value at which the spider has to stop scraping (in my case at 750) can be acheieved by modifying the below line in the *settings.py* file.**
+**The value at which the spider has to stop scraping (in my case at 750) can be achieved by modifying the below line in the *settings.py* file.**
 
 ```
 ITEMCOUNT = 750
