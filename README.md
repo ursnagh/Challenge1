@@ -26,8 +26,8 @@ If you like to have an experience of creating your own scrapy spider, by executi
 **Create a New Scrapy Spider Project**
 
 ```
-scrapy startproject books_challenge
-cd books_challenge
+scrapy startproject books
+cd books
 scrapy genspider book2scrape books.toscrape.com
 ```
 
