@@ -31,7 +31,7 @@ cd books
 scrapy genspider book2scrape books.toscrape.com
 ```
 
-You can overwrite your exisitng *settings.py* and the *./spiders/books.py* file from this repository.
+You can overwrite your exisitng *settings.py* and the *./spiders/book2scrape.py* file from this repository.
 
 **To save the data into a JSON file, please execute the below command:**
 
