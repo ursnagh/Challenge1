@@ -1,0 +1,13 @@
+setup.py
+challenge1/__init__.py
+challenge1/items.py
+challenge1/middlewares.py
+challenge1/pipelines.py
+challenge1/settings.py
+challenge1/spiders/__init__.py
+challenge1/spiders/book2scrape.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
