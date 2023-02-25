@@ -28,7 +28,7 @@ If you like to have an experience of creating your own scrapy spider, by executi
 ```
 scrapy startproject books_challenge
 cd books_challenge
-scrapy genspider books books.toscrape.com
+scrapy genspider book2scrape books.toscrape.com
 ```
 
 You can overwrite your exisitng *settings.py* and the *./spiders/books.py* file from this repository.
@@ -36,7 +36,7 @@ You can overwrite your exisitng *settings.py* and the *./spiders/books.py* file 
 **To save the data into a JSON file, please execute the below command:**
 
 ```
-scrapy crawl books -o output.json
+scrapy crawl book2scrape -o output.json
 ```
 
 **To ensure that the spider stops scraping at 750 items I have modified the pipeline in the pipelines.py file as given below**
